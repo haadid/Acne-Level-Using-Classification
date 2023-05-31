@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Acne Level Prediction</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+    <script src="webcam.js"></script>
+    <script src="prediction.js"></script>
+  </head>
+  <body>
+    <video id="video" autoplay playsinline></video>
+    <div id="prediction"></div>
+    <div id="error-message"></div>
+    <button id="start-button">Start Webcam</button>
+    <button id="stop-button" disabled>Stop Webcam</button>
+    <button id="predict-button">Predict</button>
+  </body>
+</html>
